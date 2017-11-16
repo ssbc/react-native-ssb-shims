@@ -30,7 +30,7 @@
     "react-native-fs": "2.3.x",
     "react-native-os":
       "git://github.com/staltz/react-native-os.git#staltz-package",
-    "react-native-process-shim": "1.0.0",
+    "react-native-process-shim": "1.0.1",
     "react-native-randombytes": "3.0.0",
     "react-native-tcp": "3.2.x",
     "sodium-browserify-tweetnacl": "^0.2.3",

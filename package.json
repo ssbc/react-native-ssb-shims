@@ -1,6 +1,6 @@
 {
   "name": "react-native-ssb-shims",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":
     "Node.js-related shims necessary for the SSB ecosystem to run on React Native apps",
   "main": "index.js",
@@ -28,7 +28,8 @@
     "propagate-replacement-fields": "1.2.0",
     "react-native-crypto": "2.1.1",
     "react-native-fs": "2.3.x",
-    "react-native-os": "git://github.com/staltz/react-native-os.git#master",
+    "react-native-os":
+      "git://github.com/staltz/react-native-os.git#staltz-package",
     "react-native-process-shim": "1.0.0",
     "react-native-randombytes": "3.0.0",
     "react-native-tcp": "3.2.x",

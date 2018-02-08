@@ -41,7 +41,7 @@
     "fs": false,
     "net": "react-native-tcp",
     "react-native-os": "@staltz/react-native-os",
-    "os": "react-native-os",
+    "os": "@staltz/react-native-os",
     "stream": "stream-browserify",
     "process": "react-native-process-shim",
     "url": "url",

@@ -1,8 +1,7 @@
 {
   "name": "react-native-ssb-shims",
   "version": "1.0.2",
-  "description":
-    "Node.js-related shims necessary for the SSB ecosystem to run on React Native apps",
+  "description": "Node.js-related shims necessary for the SSB ecosystem to run on React Native apps",
   "main": "index.js",
   "homepage": "https://github.com/ssbc/react-native-ssb-shims",
   "repository": {
@@ -10,29 +9,27 @@
     "url": "https://github.com/ssbc/react-native-ssb-shims"
   },
   "scripts": {
-    "do-propagate":
-      "propagate-replacement-fields --field=react-native --source=$(dirname $(realpath -s $0)) --destination=$(dirname $(realpath -s $0))/../../",
-    "do-link":
-      "cd $(dirname $(realpath -s $0))/../../ && react-native link react-native-randombytes && react-native link react-native-crypto && react-native link react-native-fs && react-native link react-native-os && react-native link react-native-tcp && cd $(dirname $(realpath -s $0))",
+    "do-propagate": "propagate-replacement-fields --field=react-native --source=$(dirname $(realpath -s $0)) --destination=$(dirname $(realpath -s $0))/../../",
+    "do-link": "cd $(dirname $(realpath -s $0))/../../ && react-native link react-native-randombytes && react-native link react-native-crypto && react-native link react-native-fs && react-native link react-native-os && react-native link react-native-tcp && cd $(dirname $(realpath -s $0))",
     "do-patch": "patch-package",
     "install": "npm run do-propagate && npm run do-link && npm run do-patch"
   },
   "author": "Andre Staltz",
   "license": "MIT",
   "devDependencies": {
-    "patch-package": "^3.2.1"
+    "patch-package": "^5.0.0"
   },
   "dependencies": {
     "buffer": "3.6.0",
     "path": "0.12.x",
     "propagate-replacement-fields": "1.2.0",
-    "react-native-crypto": "2.1.1",
+    "multiserver": "1.10.1",
+    "react-native-crypto": "2.1.2",
     "react-native-fs": "2.3.x",
-    "react-native-os":
-      "git://github.com/staltz/react-native-os.git#staltz-package",
+    "react-native-os": "git://github.com/staltz/react-native-os.git#staltz-package",
     "react-native-process-shim": "1.0.1",
     "react-native-randombytes": "3.0.0",
-    "react-native-tcp": "3.2.x",
+    "react-native-tcp": "3.3.x",
     "sodium-browserify-tweetnacl": "^0.2.3",
     "stream-browserify": "^2.0.1",
     "url": "0.11.0",

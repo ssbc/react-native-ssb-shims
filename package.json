@@ -20,7 +20,7 @@
     "patch-package": "^5.0.0"
   },
   "dependencies": {
-    "@staltz/react-native-os": "1.2.0",
+    "@staltz/react-native-os": "2.0.0",
     "buffer": "3.6.0",
     "path": "0.12.x",
     "propagate-replacement-fields": "1.2.0",

@@ -10,14 +10,14 @@
   },
   "scripts": {
     "do-propagate": "propagate-replacement-fields --field=react-native --source=$(dirname $(realpath -s $0)) --destination=$(dirname $(realpath -s $0))/../../",
-    "do-link": "cd $(dirname $(realpath -s $0))/../../ && react-native link react-native-randombytes && react-native link react-native-crypto && react-native link @staltz/react-native-os && react-native link @staltz/react-native-tcp && cd $(dirname $(realpath -s $0))",
+    "do-link": "cd $(dirname $(realpath -s $0))/../../ && echo 'LINK RANDOMBYTES' && react-native link react-native-randombytes && echo 'LINK CRYPTO' && react-native link react-native-crypto && echo 'LINK OS' && react-native link @staltz/react-native-os && echo 'LINK TCP' && react-native link @staltz/react-native-tcp && echo 'GO BACK' && cd $(dirname $(realpath -s $0))",
     "install": "npm run do-propagate && npm run do-link"
   },
   "author": "Andre Staltz",
   "license": "MIT",
   "dependencies": {
     "@staltz/react-native-os": "2.0.1",
-    "@staltz/react-native-tcp": "3.3.x",
+    "@staltz/react-native-tcp": "3.3.0",
     "buffer": "3.6.0",
     "path": "0.12.x",
     "propagate-replacement-fields": "1.2.0",

@@ -16,7 +16,6 @@
   "license": "MIT",
   "dependencies": {
     "@staltz/react-native-os": "2.0.2",
-    "@staltz/react-native-tcp": "3.3.1",
     "buffer": "5.2.0",
     "path": "0.12.x",
     "propagate-replacement-fields": "1.2.0",
@@ -32,9 +31,7 @@
     "crypto": "react-native-crypto",
     "chloride": "sodium-browserify-tweetnacl",
     "fs": false,
-    "net": "@staltz/react-native-tcp",
     "os": "@staltz/react-native-os",
-    "react-native-tcp": "@staltz/react-native-tcp",
     "react-native-os": "@staltz/react-native-os",
     "stream": "stream-browserify",
     "process": "react-native-process-shim",

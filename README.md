@@ -13,7 +13,7 @@ npm install --save react-native-ssb-shims
 Then "link" some dependencies (important!):
 
 ```
-react-native link react-native-tcp react-native-randombytes react-native-crypto react-native-os
+react-native link react-native-randombytes react-native-crypto react-native-os
 ```
 
 And import it in your project's index.js:

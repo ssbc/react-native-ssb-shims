@@ -15,7 +15,7 @@
   "author": "Andre Staltz",
   "license": "MIT",
   "dependencies": {
-    "@staltz/react-native-os": "2.1.0",
+    "react-native-os-staltz": "2.1.0",
     "buffer": "5.2.0",
     "path": "0.12.x",
     "propagate-replacement-fields": "1.2.0",
@@ -31,8 +31,7 @@
     "crypto": "react-native-crypto",
     "chloride": "sodium-browserify-tweetnacl",
     "fs": false,
-    "os": "@staltz/react-native-os",
-    "react-native-os": "@staltz/react-native-os",
+    "os": "react-native-os-staltz",
     "stream": "stream-browserify",
     "process": "react-native-process-shim",
     "url": "url",

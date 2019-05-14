@@ -16,13 +16,13 @@
   "license": "MIT",
   "dependencies": {
     "react-native-os-staltz": "2.1.0",
-    "buffer": "5.2.0",
+    "buffer": "5.2.1",
     "path": "0.12.x",
     "propagate-replacement-fields": "1.2.0",
     "react-native-crypto": "2.1.2",
-    "react-native-process-shim": "1.0.1",
+    "react-native-process-shim": "~1.0.2",
     "react-native-randombytes": "3.0.0",
-    "sodium-browserify-tweetnacl": "~0.2.3",
+    "sodium-browserify-tweetnacl": "~0.2.6",
     "stream-browserify": "~2.0.1",
     "url": "0.11.0",
     "vm-browserify": "~1.1.0"

@@ -1,6 +1,6 @@
 {
   "name": "react-native-ssb-shims",
-  "version": "4.3.0",
+  "version": "4.4.0",
   "description": "Node.js-related shims necessary for the SSB ecosystem to run on React Native apps",
   "main": "index.js",
   "homepage": "https://github.com/ssbc/react-native-ssb-shims",

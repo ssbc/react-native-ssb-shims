@@ -2,4 +2,4 @@
 global.__dirname = '/';
 global.__filename = '';
 require('process');
-global.Buffer = require('buffer/').Buffer;
+global.Buffer = require('buffer').Buffer;

@@ -15,7 +15,7 @@
   "author": "Andre Staltz",
   "license": "MIT",
   "dependencies": {
-    "buffer": "5.2.1",
+    "buffer": "5.4.3",
     "path": "0.12.x",
     "propagate-replacement-fields": "1.2.0",
     "react-native-crypto": "2.1.2",

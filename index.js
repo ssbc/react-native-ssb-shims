@@ -1,5 +1,3 @@
 // Install globals
-global.__dirname = '/';
-global.__filename = '';
-require('process');
+global.process = require('react-native-process-shim');
 global.Buffer = require('buffer').Buffer;

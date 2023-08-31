@@ -10,7 +10,7 @@
   },
   "scripts": {
     "do-propagate": "propagate-replacement-fields --field=react-native --source=$(dirname $(realpath -s $0)) --destination=$(dirname $(realpath -s $0))/../../",
-    "install": "(node -e \"process.exit(process.platform==='win32'?1:0)\" && npm run do-propagate) || true"
+    "install": "(node -e \"process.exit(process.platform==='win32'?1:0)\" && npm run do-propagate) || :"
   },
   "author": "Andre Staltz",
   "license": "MIT",
